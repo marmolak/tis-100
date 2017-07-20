@@ -1,0 +1,46 @@
+@0
+
+
+@1
+MOV UP,ACC
+JNZ REF
+SWP
+ADD 1
+SAV
+SUB 3
+JEZ RAISE
+JMP F
+RAISE: MOV 1,DOWN
+MOV 2,ACC
+SAV
+JRO -100
+REF: MOV 0,ACC
+SAV
+F: MOV 0,DOWN
+
+@2
+
+
+@3
+
+
+@4
+MOV UP,RIGHT
+
+@5
+MOV LEFT,DOWN
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV UP,DOWN
+
+@10
+

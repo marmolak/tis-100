@@ -1,0 +1,53 @@
+@0
+
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV 0,DOWN
+MOV ACC,DOWN
+SWP
+C: MOV 3,DOWN
+ADD 1
+SUB 30
+JEZ NL
+ADD 30
+JMP C
+
+NL: MOV -1,DOWN
+SWP
+ADD 1
+
+@10
+MOV 3,LEFT
+MOV 3,LEFT
+MOV 3,LEFT
+MOV 3,LEFT
+MOV 3,LEFT
+MOV 3,LEFT
+MOV 3,LEFT
+MOV 3,LEFT
+MOV 3,LEFT
+MOV 3,LEFT
